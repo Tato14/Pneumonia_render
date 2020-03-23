@@ -7,6 +7,7 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
+import pydicom
 
 export_file_url = https://www.googleapis.com/drive/v3/files/1n81m6by7ylal8E5KirD8_59JHqtRwGm1?alt=media&key=AIzaSyCL0q7SLmBikJakkjdm08PJiBLc8VfQfs4
 export_file_name = 'fastai2_Imagenet_20_RN50.pkl'
